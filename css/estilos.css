@@ -58,6 +58,7 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup{
     padding: 20px;
     background: #F0EFEF;
     border: 1px solid #830808;
+    text-align:initial;
 }
 #cabecera{
     background: #F0EFEF;
@@ -73,11 +74,26 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup{
     border-top: 2px solid #830808;
     background: #868585;
 }
+#q-somos{
+    font-size: 20px;
+    text-align: justify;
+    text-align: center;
+    color:#830808;
+    text-transform: uppercase;
+}
 /* ---------------REFERENCIA CON CLASS--------------- */
 .titulo{
     font-size: 20px;
     text-align: justify;
     text-align: center;
+}
+.titulo-aside{
+    font-size: 14px;
+    text-align: justify;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .subtitulo{
     font-size: 15px;
@@ -116,6 +132,14 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
     color: #830808;
+    font-weight: bold;
+    display: inline-block;
+}
+.valor-moneda-verde{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: green;
     font-weight: bold;
     display: inline-block;
 }

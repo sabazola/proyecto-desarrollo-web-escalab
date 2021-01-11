@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Principal :: M.I.</title>
+    <title>Inversiones :: M.I.</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
     <!--CONTENIDO DEL HTML-->
@@ -75,19 +75,30 @@
         
     </section>
     <aside id="columna">
-        <blockquote>Mensaje 1</blockquote>
-        <blockquote>Mensaje 2</blockquote>
-        <blockquote>Mensaje 2</blockquote>
-        <blockquote>Mensaje 2</blockquote>
-        <blockquote>Mensaje 2</blockquote>
-        <blockquote>Mensaje 2</blockquote>
-        <blockquote>Mensaje 2</blockquote>
-        <blockquote>Mensaje 2</blockquote>
-        <blockquote>Mensaje 2</blockquote>
-        <blockquote>Mensaje 2</blockquote>
-        <blockquote>Mensaje 2</blockquote>
-        <blockquote>Mensaje 2</blockquote>
-        <blockquote>Mensaje 2</blockquote>
+        <p class="titulo-aside">Indicadores Económicos</p><br>
+        <blockquote><p class="titulo-moneda">DÓLAR US&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="valor-moneda-verde">$711,12</p></blockquote> 
+        <blockquote><p class="titulo-moneda">euro &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="valor-moneda-verde">$869,33</p></blockquote>
+        <blockquote><p class="titulo-moneda">real bras.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="valor-moneda-verde">$131,25</p></blockquote>
+        <blockquote><p class="titulo-moneda">peso arg.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="valor-moneda-verde">$8,36</p></blockquote>
+        <blockquote><p class="titulo-moneda">yuan chino&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="valor-moneda-verde">$109,82</p></blockquote><br>
+        <blockquote><p class="titulo-moneda">cobre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="valor-moneda">3,69 US$/LB</p></blockquote>
+        <blockquote><p class="titulo-moneda">oro&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="valor-moneda">1.849,90 US$/OZ</p></blockquote>
+        <blockquote><p class="titulo-moneda">PETR.BRENT&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="valor-moneda">56,25 US$/B</p></blockquote>
+        <blockquote><p class="titulo-moneda">PETR.WTI&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p class="valor-moneda">52,72 US$/B</p></blockquote><br>
+    <div class="titulo-moneda">
+        Calculadora <br>
+        Dolares => Pesos Chilenos <br>
+        US<input type="number" name="dolar" id="dolar" min="0" max="9999999" required><br>
+        <input type="button" onclick="dolar_peso();" value="Calcular">
+    </div>
+    <br><br>
+    <div class="titulo-moneda">
+        Calculadora <br>
+        Pesos Chilenos => Dolares  <br>
+        $<input type="number" name="peso" id="peso" min="0" max="9999999" required><br>
+        <input type="button" onclick="peso_dolar();" value="Calcular">
+    </div>
+    
     </aside>
     <footer id="pie">Mundo Inversiones Derechos Reservados &copy; 2020
     </footer>
