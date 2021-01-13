@@ -14,6 +14,9 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup{
     display: inline-block;
     text-align: left;
 }
+.boton{
+    text-align: center;
+}
 #titulo-principal{
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -26,36 +29,35 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup{
     font-size: 10;
     display: inline-block;
     list-style: none;
-    padding: 10px;
+    padding: 5px;
     color: #646363;
     background: #F0EFEF;
     font-family: Arial, Helvetica, sans-serif;
-    /*border-bottom: 2px solid #830808; */
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
     border-radius: 20px;
 }
 #barra-nav a:hover{
-    color: #830808;
-    background:  #646363;   
+    color: white;
+    background: #830808; 
 }
 #barra-nav li{
     display: inline-block;
     list-style: none;
     padding: 5px;
     font: verdana, sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 #seccion{
     float: left;
     width: 660px;
-    margin: 20px;
+    margin: 30px;
 }
 #columna{
     float: left;
     width: 220px;
-    margin: 20px 0px;
-    padding: 20px;
+    margin: 30px 0px;
+    padding: 40px;
     background: #F0EFEF;
     border: 1px solid #830808;
     text-align:initial;
@@ -63,16 +65,25 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup{
 #cabecera{
     background: #F0EFEF;
     border-top: #474747;
-    border-bottom: 2px solid #830808;
-    padding: 14px;
+    padding: 5px;
     text-align: left;
+    border-bottom: 1px solid #830808;
 }
 #pie{
     clear: both;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     border-top: 2px solid #830808;
+    border-bottom: 1px solid #830808;
     background: #868585;
+    color:white;
+}
+#pie-dos{
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    background: #868585;
+    color:white;
 }
 #q-somos{
     font-size: 20px;
@@ -80,6 +91,14 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup{
     text-align: center;
     color:#830808;
     text-transform: uppercase;
+}
+#marquee {
+    border-bottom: 1px solid #830808;
+    font-size: 12px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#4B4A4A;
 }
 /* ---------------REFERENCIA CON CLASS--------------- */
 .titulo{
@@ -151,10 +170,38 @@ header, section, footer, aside, nav, article, figure, figcaption, hgroup{
     font-weight: bold;
     display: inline-block;
 }
+.form-registro{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    align-content:center;
+    text-align:initial;
+}
+.imagen {
+    width: 160px;
+    float: left;
+}
+.imagen_ico {
+    width: 15px;
+}
+.verde{
+    color: green;
+    display: inline-block;
+}
+.rojo{
+    color: red;
+    display: inline-block;
+}
+.sep{
+    color:#830808;
+    display: inline-block;
+}
 /* ---------------REFERENCIA POR PALABRA CLAVE ---------------*/
 body{
     text-align: center;
-    background-color: white;
+    background-color: #F8F8F8;
 }
 article{
     background: #F0EFEF;
@@ -166,9 +213,9 @@ article footer{
     text-align: right;
     color: #646363;
 }
-img {
-    width: 160px;
-    float: left;
+a:link, a:visited, a:active {
+    color: #646363;
+    text-decoration:none;
 }
 /* ---------------MEDIA QUERY--------------- */
 /* CAMBIAR COLOR DE FONDO */
